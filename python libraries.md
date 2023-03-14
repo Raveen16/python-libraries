@@ -1,3 +1,15 @@
+exe file 
+https://www.python.org/downloads/release/python-380/
+
+virtual environment
+python -m venv <name_of_the_environment>
+
+To activate the virtual environment command to be used on Windows:
+<name_of_the_environment>\Scripts\activate
+
+To activate the virtual environment command to be used on Mac:
+source <name_of_the_environment>/bin/activate
+
 *OPENCV*
 pip3 install opencv-python
 
