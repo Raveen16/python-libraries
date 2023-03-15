@@ -27,7 +27,4 @@ Use the following commands to install the necessary packages:
 - **NLTK:** `pip install nltk`
 
 
-- **Tensorflow(enable long path in registory editor if facing any issues for tensorflow):** `pip install tensorflow==2.5.0`  or `pip install tensorflow` or `or pip install tensorflow_cpu`
-
-pip3 install --upgrade https://storage.googleapis.com/tensorflow/mac/cpu/tensorflow-1.0.0-py3-none-any.whl
-python3 -m pip install --upgrade tensorflow
+- **Tensorflow(enable long path in registory editor if facing any issues for tensorflow):** `pip install tensorflow==2.5.0`  or `pip install tensorflow` or `or pip install tensorflow_cpu` or `pip3 install --upgrade https://storage.googleapis.com/tensorflow/mac/cpu/tensorflow-1.0.0-py3-none-any.whl` or `python3 -m pip install --upgrade tensorflow`
