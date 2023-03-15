@@ -24,6 +24,13 @@ pip install opencv-contrib-python
 *Mediapipe*
 pip install mediapipe
 
+
+*Virtual Keyboard and Mouse*
+pip install pynput
+pip install pyautogui
+
+
+
 *Tensorflow*
 (enable long path in registory editor if facing any issues for tensorflow)
 pip install tensorflow==2.5.0
