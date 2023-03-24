@@ -33,3 +33,12 @@ Use the following commands to install the necessary packages:
 
 
 - **Tensorflow(enable long path in registory editor if facing any issues for tensorflow):** `pip install tensorflow==2.5.0`  or `pip install tensorflow` or `or pip install tensorflow_cpu` or `pip3 install --upgrade https://storage.googleapis.com/tensorflow/mac/cpu/tensorflow-1.0.0-py3-none-any.whl` or `python3 -m pip install --upgrade tensorflow`
+
+
+## NOTE:
+Install the packages with --user at the end in case of the following error
+
+ERROR:
+Could not install packages due to an EnvironmentError: [WinError 5] Access is denied: 'c:\\program files\\python38\\Lib\\site-packages\\watchdog' Consider using the `--user` option or check the permissions.
+
+ex: pip install watchdog --user
