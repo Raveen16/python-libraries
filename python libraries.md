@@ -1,7 +1,12 @@
 ## Downloading Python in Local Environment
 
-1. Download the Python 3.8.0 executable file from https://www.python.org/downloads/release/python-380
-2. Run the command `python-3.8.0.exe` and follow the instructions to install Python.
+1. Download the Python 3.8.0 x86-64 executable installer file from https://www.python.org/downloads/release/python-380
+2. Run the exe file that was donwloaded `python-3.8.0.exe` install Python.
+3. Add Python 3.8 to path and click on customize installation.
+4. Select all optional features.
+5. Select first 5 options from the advance options screen.
+6. Click on install.
+7. Click yes and provide permission to install python.
 
 
 ## Setting Up a Python Virtual Environment
