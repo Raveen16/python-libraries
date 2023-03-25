@@ -19,26 +19,19 @@
 
 Use the following commands to install the necessary packages:
 
-- **Watchdog:** `pip install watchdog`
-- **Observer:** `pip install observer`
-- **Events:** `pip install events`
-- **OPENCV:** `pip3 install opencv-python`
-- **Numpy:** `pip3 install numpy`
-- **Object Detection Extension:** `pip install opencv-contrib-python==3.4.13.47` or `pip install opencv-contrib-python`
-- **Mediapipe:** `pip install mediapipe`
-- **Virtual Keyboard and Mouse:** `pip install pynput`  and `pip install pyautogui` 
-- **Pandas:** `pip install pandas`
-- **Flask:** `pip install flask`
-- **NLTK:** `pip install nltk`
-
-
-- **Tensorflow(enable long path in registory editor if facing any issues for tensorflow):** `pip install tensorflow==2.5.0`  or `pip install tensorflow` or `or pip install tensorflow_cpu` or `pip3 install --upgrade https://storage.googleapis.com/tensorflow/mac/cpu/tensorflow-1.0.0-py3-none-any.whl` or `python3 -m pip install --upgrade tensorflow`
-
-
-## NOTE:
-Install the packages with --user at the end in case of the following error
-
-ERROR:
-Could not install packages due to an EnvironmentError: [WinError 5] Access is denied: 'c:\\program files\\python38\\Lib\\site-packages\\watchdog' Consider using the `--user` option or check the permissions.
-
-ex: pip install watchdog --user
+- **Watchdog:** `pip install watchdog --user`
+- **Observer:** `pip install observer --user`
+- **Events:** `pip install events --user`
+- **OPENCV:** `pip install opencv-python --user`
+- **Numpy:** `pip install numpy --user`
+- **Object Detection Extension:** `pip install opencv-contrib-python --user`
+- **Mediapipe:** `pip install mediapipe --user`
+- **Virtual Keyboard and Mouse:** `pip install pynput`  and `pip install pyautogui --user` 
+- **Pandas:** `pip install pandas --user`
+- **Flask:** `pip install flask --user`
+- **NLTK:** `pip install nltk --user`
+- **Tensorflow(enable long path in registory editor if facing any issues for tensorflow):** `pip install tensorflow --user`  
+           or `pip install tensorflow==2.5.0 --user` 
+           or `or pip install tensorflow_cpu --user` 
+           or `pip3 install --upgrade https://storage.googleapis.com/tensorflow/mac/cpu/tensorflow-1.0.0-py3-none-any.whl` 
+           or `python3 -m pip install --upgrade tensorflow`
